@@ -276,13 +276,6 @@ td { vertical-align: top;}
 
 
 /* =============================================================================
-   Chrome Frame Prompt
-   ========================================================================== */
-
-.chromeframe { margin: 0.2em 0; background: #ccc; color: black; padding: 0.2em 0; }
-
-
-/* =============================================================================
    Fonts
    ========================================================================== */
 
@@ -404,6 +397,25 @@ small, .fs-milli { font-size:12px; font-size:0.75rem; /* 12px */ line-height:2; 
 
 .marginb-alpha { margin-bottom: 4em;}
 
+.show-oldie,
+.show-ie9,
+.show-ie8-lte { display: none;}
+
+.oldie .show-oldie,
+.ie9 .show-ie9,
+.ie8 .show-ie8-lte,
+.ie7 .show-ie8-lte { display: block;}
+
+.note {
+  border: 2px solid #000;
+  margin: 2em;
+  padding-top: 1em;
+}
+
+.note-warning {
+  background: #ffc0cb;
+  border-color: #800000;
+}
 
 /* -----------------------------------------------------------------------------
    1.d.i General Typography
