@@ -1,5 +1,5 @@
 (function( $ ) {
-  
+
   var $buttons = $('button'),
       $device  = $('#device-type'),
       currentClass = 'btn-current',
@@ -58,5 +58,5 @@
   });
 
   setMedia();
-  
+
 })( jQuery );
